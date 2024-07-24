@@ -1,0 +1,16 @@
+# Ignore R session data
+.Rhistory
+.RData
+.Rproj.user
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore log files and databases
+*.log
+*.sql
+*.sqlite
+
+# Ignore the docker image and container files
+*.tar
+*.img
