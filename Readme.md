@@ -9,7 +9,7 @@ https://hub.docker.com/repository/docker/samleenz/run_summarized_experiment/
 ## Build the Docker Image
 
 ```sh
-docker build -t run_summarized_experiment .
+docker build --platform linux/amd64 -t run_summarized_experiment .
 ```
 
 ## Run the docker container
